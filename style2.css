@@ -1,0 +1,58 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(209, 240, 178);
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+#circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: azure;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+h1{
+    position: absolute;
+    bottom: 20%;
+    left: 39%;
+}
+
+
+.box{
+    background-color:rgb(48, 194, 48);
+    border-radius: 30px;
+}
+
+#b1{
+    height: 50px;
+    width:10px;
+    rotate: -45deg;
+    position: absolute;
+    left: 47%;
+    top: 50%;
+}
+
+#b2{
+    height: 130px;
+    width: 10px;
+    rotate: 45deg;
+    position: absolute;
+    left: 51%;
+}
+

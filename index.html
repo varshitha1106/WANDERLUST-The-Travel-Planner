@@ -1,0 +1,731 @@
+<html lang="en">
+    <head>
+        <title>travel planner</title>
+        
+    </head>
+    
+
+
+<!--
+  - favicon
+-->
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/128/2200/2200326.png" type="image/png">
+
+
+<!--
+  - custom css link
+-->
+    <link rel="stylesheet" href="style.css">
+
+<!--
+  - #HEADER
+-->
+
+<header class="header" data-header>
+
+  <div class="overlay" data-overlay></div>
+
+  <div class="header-top">
+    <div class="container">
+
+      <a href="tel:+01123456790" class="helpline-box">
+
+        <div class="icon-box">
+
+        </div>
+
+        <div class="wrapper">
+          <p class="helpline-title">For Further Inquires :</p>
+
+          <p class="helpline-number">+912436789102</p>
+        </div>
+
+      </a>
+
+   
+      <div style="color: rgb(93, 187, 231); font-style: italic;font-size: larger;position: absolute;left: 30%;">
+        <h1>WANDERLUST-The Travel Planner</h1>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="header-bottom">
+    <div class="container">
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>home</a>
+          </li>
+
+          <li>
+            <button id="inquire-button" class="navbar-link" data-nav-link>inquire</button>
+          </li>
+          
+          <li>
+            <a href="#destination" class="navbar-link" data-nav-link>destination</a>
+          </li>
+
+          <li>
+            <a href="#package" class="navbar-link" data-nav-link>packages</a>
+          </li>
+
+          <li>
+            <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+          </li>
+          
+    
+        <script>
+            // JavaScript to scroll to the inquire section
+            document.getElementById('inquire-button').addEventListener('click', function() {
+                document.getElementById('inquire-section').scrollIntoView({ behavior: 'smooth' });
+            });
+        </script>
+
+
+
+        </ul>
+
+      </nav>
+
+      
+
+    </div>
+  </div>
+
+</header>
+
+<main>
+  <article>
+
+    <!--
+      - #HERO
+    -->
+
+    <section class="hero" id="home">
+      <div class="container">
+
+        <h2 class="h1 hero-title">Journey to explore world</h2>
+
+        <p class="hero-text">
+          Travel takes us out of our comfort zones and inspires us to see, taste and try new things.
+          Once a year, go someplace you've never been before.
+        </p>
+
+        <div class="btn-group">
+          <a href="learnmore.html" class="btn btn-secondary">Learn more</a>
+
+          <a href="booknow.html" class="btn btn-secondary">Book now</a>
+        </div>
+        
+        <!--<a href="booknow.html" class="button">Book now</a>-->
+
+      </div>
+    </section>
+
+    <!--
+      - #TOUR SEARCH
+    -->
+
+    <section class="tour-search" id="inquire-section">
+      <div class="form-container">
+        <h1>Search Destination*</h1>
+        <input type="text" placeholder="Enter Destination"/>
+        <h1>Pax Number*</h1>
+        <input type="number" placeholder="No.of people"/>
+        <h1>Checkin Date*</h1>
+        <input type="date" placeholder="DD/MM/YYYY"/>
+        <h1>Checkout Date*</h1>
+        <input type="date" placeholder="DD/MM/YYYY"/>
+        <button>INQUIRE NOW</button>
+      </div>
+      
+    </section>
+
+    <!--
+      - #POPULAR
+    -->
+
+    <section class="popular" id="destination">
+      <div class="container">
+
+        <p class="section-subtitle">Uncover place</p>
+
+        <h2 class="h2 section-title">Popular destination</h2>
+        <p></p>
+
+        
+
+        <ul class="popular-list">
+
+          <li>
+            <div class="popular-card">
+
+              <figure class="card-img">
+                <img decoding="async" src="https://www.fodors.com/assets/destinations/705529/eiffel-tower-paris-france_main.jpg"
+                 alt="Eiffel Tower,France" loading="lazy">
+              </figure>
+
+              <div class="card-content">
+
+                <div class="card-rating">4.95/5⭐
+
+
+
+
+
+                </div>
+
+                <p class="card-subtitle">
+                  <a href="#">France</a>
+                </p>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Eiffel Tower</a>
+                </h3>
+                <h1 id="abc" onclick="fun()">Eiffel Tower</h1>
+
+                
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="popular-card">
+
+              <figure class="card-img">
+                <img decoding="async" src="https://alfaris-uae.com/wp-content/uploads/2023/02/DSC_7356.jpg" 
+                alt="Burj khalifa, dubai" loading="lazy">
+              </figure>
+
+              <div class="card-content">
+
+                <div class="card-rating">4.86/5⭐
+
+
+
+
+
+                </div>
+
+                <p class="card-subtitle">
+                  <a href="#">Dubai</a>
+                </p>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Burj khalifa</a>
+                </h3>
+
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="popular-card">
+
+              <figure class="card-img">
+                <img decoding="async" src="https://www.romesightseeing.net/media/zxuhmxih/time-elevator-colosseum.jpg?anchor=center&mode=crop&width=1200&height=800&rnd=132624483859270000" 
+                alt="Colosseum,Italy" loading="lazy">
+              </figure>
+
+              <div class="card-content">
+
+                <div class="card-rating">4.73/5⭐
+
+                </div>
+
+                <p class="card-subtitle">
+                  <a href="#">Italy</a>
+                </p>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Colosseum</a>
+                </h3>
+
+                
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+        
+        
+      </div>
+      <a href="more_destinations.html" class="button">More destinations</a>
+
+    </section>
+
+
+
+
+
+    <!--
+      - #PACKAGE
+    -->
+
+    <section class="package" id="package">
+      <div class="container">
+
+        <h1 class="section-subtitle">Popular Packeges</h1>
+
+        <h2 class="h2 section-title">Checkout Our Packeges</h2>
+
+        <p class="section-text">
+         <h1 style="text-align: center; margin-bottom: 30px; color: rgb(68, 132, 235);"><i>People Don't Take Trips...Trips Take People</i></h1>
+        </p>
+
+        <ul class="package-list">
+
+          <li>
+            <div class="package-card">
+
+              <figure class="card-banner">
+                <img decoding="async" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTirUTtNtqwRLNcM3q4JzPJuKZqZSlqkt9D_A&s" alt="seven wonders" loading="lazy">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3 card-title">The iconic 7-wonders</h3>
+
+                <p class="card-text">
+                  The Colosseum in Italy, Petra in Jordan, Chichén Itzá in Mexico, Christ the Redeemer in Brazil, Machu Picchu in Peru, Taj Mahal in India and The Great Wall of China.
+                </p>
+
+                <ul class="card-meta-list">
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+
+
+                      <p class="text">14D/13N</p>
+                    </div>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+
+
+                      <p class="text">persons=8</p>
+                    </div>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+
+
+                      <p class="text">The Globe</p>
+                    </div>
+                  </li>
+
+                </ul>
+
+              </div>
+
+              <div class="card-price">
+
+                <div class="wrapper">
+
+                  <p class="reviews">(250 reviews)</p>
+
+                  <div class="card-rating">
+
+
+
+
+
+                  </div>
+
+                </div>
+
+                <p class="price">
+                  ₹4.5lakhs
+                  <span>/ per person</span>
+                </p>
+
+                <button class="btn btn-secondary">Book Now</button>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="package-card">
+
+              <figure class="card-banner">
+                <img decoding="async" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKt2ELe4q3VPtxmd9E6OYAtSgaI9wsedbnsg&s" loading="lazy">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3 card-title"> Exploring EUROPE</h3>
+
+                <p class="card-text">
+                  Some of the top attractions in Europe include Eiffel Tower, Colosseum, Buckingham Palace, Acropolis of Athens, Van Gogh Museum, Grand Canal, and Sagrada FamÃlia.
+                </p>
+
+                <ul class="card-meta-list">
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+
+
+                      <p class="text">7D/6N</p>
+                    </div>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+
+
+                      <p class="text">persons=10</p>
+                    </div>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+
+
+                      <p class="text">Europe</p>
+                    </div>
+                  </li>
+
+                </ul>
+
+              </div>
+
+              <div class="card-price">
+
+                <div class="wrapper">
+
+                  <p class="reviews">(200 reviews)</p>
+
+                  <div class="card-rating">
+
+
+
+
+
+                  </div>
+
+                </div>
+
+                <p class="price">
+                  ₹1.5lakhs
+                  <span>/ per person</span>
+                </p>
+
+                <button class="btn btn-secondary">Book Now</button>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="package-card">
+
+              <figure class="card-banner">
+                <img decoding="async" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSx7kavIdKsn076aaxj96dRriXN4VMWF0DFg&s" alt="The Peak Of The Mount Everest " loading="lazy">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3 card-title">The Peak Of The Mount Everest</h3>
+
+                <p class="card-text">
+                  It is located between Nepal and Tibet, an autonomous region of China. At 8,849 meters (29,032 feet), it is considered the tallest point on Earth.
+                </p>
+
+                <ul class="card-meta-list">
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+
+
+                      <p class="text">4D/3N</p>
+                    </div>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+
+
+                      <p class="text">person=4</p>
+                    </div>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+
+
+                      <p class="text">Nepal</p>
+                    </div>
+                  </li>
+
+                </ul>
+
+              </div>
+
+              <div class="card-price">
+
+                <div class="wrapper">
+
+                  <p class="reviews">(200 reviews)</p>
+
+                  <div class="card-rating">
+
+
+
+
+
+                  </div>
+
+                </div>
+
+                <p class="price">
+                  ₹50,000
+                  <span>/ per person</span>
+                </p>
+
+                <button class="btn btn-secondary">Book Now</button>
+
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+        <button class="btn btn-primary">View All Packages</button>
+
+      </div>
+    </section>
+
+
+
+
+
+    <!--
+      - #GALLERY
+    -->
+
+    <section class="gallery" id="gallery">
+      <div class="container">
+
+        <p class="section-subtitle">Photo Gallery</p>
+
+        <h2 class="h2 section-title">Photo's From Travellers</h2>
+
+        <p class="section-text">
+          Our customers really like to help us by providing some wonderful pictures of their destination. 
+        </p>
+
+        <ul class="gallery-list">
+
+          <li class="gallery-item">
+            <figure class="gallery-image">
+              <img decoding="async" src=https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/08/0f/64/ba.jpg alt="miami beach">
+            </figure>
+            <h3>miami beach</h3>
+          </li>
+
+          <li class="gallery-item">
+            <figure class="gallery-image">
+              <img decoding="async" src=https://sc0.blr1.cdn.digitaloceanspaces.com/article/147801-fsujicsksz-1600668302.jpg alt="Taj Mahal">
+            </figure>
+            <h3>Taj Mahal in india</h3>
+          </li>
+
+          <li class="gallery-item">
+            <figure class="gallery-image">
+              <img decoding="async" src=https://images.yourstory.com/cs/2/fe056c90507811eea8de27f99b086345/MtFuji1600x900-1718977610742.jpg?mode=crop&crop=faces&ar=16%3A9&format=auto&w=3840&q=75alt= "Mount Fuji">
+            </figure>
+            <h3>mount fuji in japan</h3>
+          </li>
+
+          <li class="gallery-item">
+            <figure class="gallery-image">
+              <img decoding="async" src=https://res.cloudinary.com/djcyhbk2e/image/upload/c_fit,f_auto,h_800,q_35,w_800/v1/gvv/prod/no80bojqazq0bjxzp5cn alt="eiffel tower">
+            </figure>
+            <h3>eiffel tower in france</h3>
+          </li>
+
+          <li class="gallery-item">
+            <figure class="gallery-image">
+              <img decoding="async" src="https://whereismai.com/wp-content/uploads/2023/02/IMG_0057-scaled-e1677209214551.jpeg" alt="bali">
+            </figure>
+            <h3>bali in indonesia</h3>
+          </li>
+
+        
+        </ul>
+
+      </div>
+    </section>
+
+
+
+
+
+    <!--
+      - #CTA
+    -->
+
+    <section class="cta" id="contact">
+      <div class="container">
+
+        <div class="cta-content">
+          <p class="section-subtitle">Call To Action</p>
+
+          <h2 class="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
+
+          <p class="section-text">
+             
+            Our dedicated team is ready to assist you with personalized advice, exclusive packages,
+             and insider tips to make your travel experience unforgettable
+          </p>
+        </div>
+
+        <button class="btn btn-secondary">Contact Us !</button>
+
+      </div>
+    </section>
+
+  </article>
+</main>
+
+
+
+
+
+<!--
+  - #FOOTER
+-->
+
+<footer class="footer">
+
+  <div class="footer-top">
+    <div class="container">
+
+      <div class="footer-brand">
+
+        <p class="footer-text">
+          Whether you're planning your next adventure or have a question about our services, we’d love to hear from you.
+          Reach out to us today, and let’s start crafting the perfect itinerary together. Your dream destination is just a message away!
+        </p>
+
+      </div>
+
+      <div class="footer-contact">
+
+        <h4 class="contact-title">Contact Us</h4>
+
+        <p class="contact-text">
+          Feel free to contact and reach us !!
+        </p>
+
+        <ul>
+
+          <li class="contact-item">
+
+
+            <a href="tel:+912436789102" class="contact-link">+912436789102</a>
+          </li>
+
+          <li class="contact-item">
+
+
+            <a href="mailto:info.tourly.com" class="contact-link">info.tourly.com</a>
+          </li>
+
+          <li class="contact-item">
+
+
+            <address>501301 ACE Engineering College , Ghatkesar.</address>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-form">
+
+        <p class="form-text">
+          Subscribe our newsletter for more update &amp; news !!
+        </p>
+
+
+
+
+          <button type="submit" class="btn btn-secondary">Subscribe</button>
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2024 <a href="">Developergtm</a>. All rights reserved
+      </p>
+
+      <ul class="footer-bottom-list">
+
+        <li>
+          <a href="#" class="footer-bottom-link">Privacy Policy</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-bottom-link">Term &amp; Condition</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-bottom-link">FAQ</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+
+</footer>
+
+
+
+
+
+<!--
+  - #GO TO TOP
+-->
+
+<a href="#top" class="go-top" data-go-top>
+
+</a>
+
+
+
+
+
+<!--
+  - custom js link
+-->
+<script src="script.js"></script>
+
+<!--
+  - ionicon link
+-->
