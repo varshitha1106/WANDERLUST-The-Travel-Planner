@@ -7,6 +7,7 @@ having many websites but they offer different kind of services. The customers ar
 lot but there is a lack of relationship between travel agency and customers and hence
 establishing that relationship by caring and serving all customers in the same manner that
 wish to be served.
+
 We, as travellers, want to see destinations that make us pack our suitcases and buy the
 tickets. Whether you're dreaming of an adventurous trek, or a cultural immersion, we've got
 you covered.
